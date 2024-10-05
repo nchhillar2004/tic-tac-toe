@@ -28,7 +28,6 @@ export default function GameBoard() {
     };
 
     const checkWinner = (gameBoard: Array<any>) => {
-        let winner: number | null = null;
         for (let i = 0; i < 3; i++) {
             if (
                 gameBoard[i][0] !== null &&
